@@ -37,7 +37,6 @@ class AboutViewController: UIViewController {
         
         title = "О нас"
         
-        self.view.backgroundColor = UIColor(named: "backgroundColor")
 
         developers = [
             Developer(name: "Ярослав Мидаков", title: "sickboips", photo: UIImage(named: "yarik.jpg"), email: "yaroslav@gmail.com"),

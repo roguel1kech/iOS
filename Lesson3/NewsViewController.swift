@@ -290,6 +290,7 @@ class NewsViewController: UIViewController, UITableViewDataSource, UITableViewDe
         }
         let newsItem = news[indexPath.row]
         cell.configure(with: newsItem)
+        cell.selectionStyle = .none
         return cell
     }
     
